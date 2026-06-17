@@ -6,7 +6,24 @@ A comprehensive Jenkins learning project demonstrating Continuous Integration an
 
 This project contains hands-on examples of setting up Jenkins pipelines, configuring webhooks, and automating build processes. It serves as both a learning resource and practical demonstration of Jenkins best practices.
 
-## 📁 Project Structure
+## � Jenkins Exam Questions & Answers
+
+Essential Jenkins concepts covered in the learning materials:
+
+| # | Question | Answer |
+|---|----------|--------|
+| 1 | What is Jenkins mainly used for? | **B)** Continuous Integration and Continuous Delivery |
+| 2 | Which type of job allows you to define build steps using code in Jenkins? | **B)** Pipeline Project |
+| 3 | Which file is used to define a pipeline in Jenkins? | **C)** Jenkinsfile |
+| 4 | What is the purpose of a Jenkins Agent (Node)? | **B)** To execute jobs assigned by the Jenkins controller |
+| 5 | Which plugin is required to connect Jenkins with GitHub? | **B)** Git Plugin |
+| 6 | What is the purpose of a Webhook in Jenkins CI/CD? | **B)** To trigger build automatically on code push |
+| 7 | Which command is used inside Jenkins Pipeline to execute shell commands? | **C)** sh |
+| 8 | What is the purpose of post block in Jenkins Pipeline? | **B)** Execute steps after pipeline stages |
+| 9 | What is the use of sshagent in Jenkins Pipeline? | **C)** Use stored SSH credentials during execution |
+| 10 | What happens if a stage fails in Jenkins Pipeline (by default)? | **B)** The pipeline stops execution |
+
+## �📁 Project Structure
 
 ```
 Jenkins_task/
@@ -48,24 +65,7 @@ Jenkins_task/
 | **Shell Commands** | Using `sh` command in Pipeline scripts |
 | **SSH Credentials** | Secure SSH agent usage in pipelines |
 
-## 📚 Jenkins Exam Questions & Answers
-
-Essential Jenkins concepts covered in the learning materials:
-
-| # | Question | Answer |
-|---|----------|--------|
-| 1 | What is Jenkins mainly used for? | **B)** Continuous Integration and Continuous Delivery |
-| 2 | Which type of job allows you to define build steps using code in Jenkins? | **B)** Pipeline Project |
-| 3 | Which file is used to define a pipeline in Jenkins? | **C)** Jenkinsfile |
-| 4 | What is the purpose of a Jenkins Agent (Node)? | **B)** To execute jobs assigned by the Jenkins controller |
-| 5 | Which plugin is required to connect Jenkins with GitHub? | **B)** Git Plugin |
-| 6 | What is the purpose of a Webhook in Jenkins CI/CD? | **B)** To trigger build automatically on code push |
-| 7 | Which command is used inside Jenkins Pipeline to execute shell commands? | **C)** sh |
-| 8 | What is the purpose of post block in Jenkins Pipeline? | **B)** Execute steps after pipeline stages |
-| 9 | What is the use of sshagent in Jenkins Pipeline? | **C)** Use stored SSH credentials during execution |
-| 10 | What happens if a stage fails in Jenkins Pipeline (by default)? | **B)** The pipeline stops execution |
-
-## 📸 Screenshots & Documentation
+##  Screenshots & Documentation
 
 Visual guides are provided in the `ScreenShots/` directory showing:
 - Initial application setup for FoodHub and ShopEase
